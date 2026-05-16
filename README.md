@@ -1,7 +1,7 @@
 Network scanner:
 ---------------------
 
-When executed, this python script can be used for mapping all endpoints in the LAN, including an OS detection of the endpoints. The script is adapted to windows OS only.
+When executed, this python script can be used for mapping all endpoints in the LAN, including an OS detection of the endpoints (state if the endpoint is a linux/mac, windows or network device). The script is adapted to windows OS only.
 
 The script can map the network by making either a ping sweep (using ARP and ICMP packets), or using the ARP table data saved on the host. The OS detection is made by analyzing the TTL value in the IP header in the ICMP response received by the endpoint in the LAN. For getting access to the network and communicate with the endpoints in the LAN, the script uses the library scapy - a famous python library for networking. The scapy library is not default for python, so to use this script please download it using the pip installer.
 
