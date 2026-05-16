@@ -7,7 +7,6 @@ network_scanner.py
 Description:
 This script can be used for mapping all endpoints in the LAN, including an OS detection of the endpoints (similar to the Nmap tool).
 The script can map the network by making either a ping sweep (using ARP and ICMP packets), or using the ARP table data saved on the host. The OS detection is made by analyzing the TTL value in the IP header.
-Pay attention that the script is adapted to windows OS only.
 """
 
 # imports
